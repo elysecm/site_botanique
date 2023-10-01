@@ -1,0 +1,110 @@
+
+a {
+  color: #5B507A;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none ; 
+}
+
+a:hover {
+  color:#FEFAE0;
+}
+
+a.insta:hover {
+  color:#FEFAE0;
+}
+
+h1 {
+  text-align:center;
+  background-color: #B9E28C;
+  border-radius: 2px;
+  height: 55px;
+  padding-top: 10px;
+  text-align: center;
+  color : #5B507A;
+  font-size:60px;
+  font-family: 'Bayon', sans-serif;
+  padding-bottom: 55px;
+}
+
+h2 {
+  font-family: 'Bayon', sans-serif;
+  font-size: 30px;
+}
+
+.menu {
+  display: flex;              /*transformation en flexbox*/
+  padding:0;                  /* Suppression des marges internes */
+  justify-content: center;
+}
+
+.menu li {
+ list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+  display:block;                /* Transformation en block */
+  min-width: 120px;             /* Largeur minimale des liens */
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #CCD5AE;    /* Couleur d'arrière-plan */
+    color : #5B507A;               /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border-radius: 2px;           /* Arrondis des bordures */
+}
+
+.menu a:hover {
+  background-color: #D4A373;
+  color : #5B507A;
+}
+
+
+main {
+  display: flex;
+  align-items:stretch;
+}
+
+body {
+  background-color:#FEFAE0;
+  color:#5B507A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col1 {
+  background-color:#E9EDC9;
+  padding : 20px; 
+  flex: 0.2;
+  margin:1em;
+  border-radius: 5px;
+}
+
+.col2 {
+  background-color:#CCD5AE;
+  padding : 40px; 
+  flex: 0.5;
+  border-radius: 5px;
+}
+
+footer {
+  padding : 5px;
+  background-color: #B9E28C;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  margin:0.5em;
+  border-radius: 2px;
+}
+
+.insta {
+  color : #5B507A;
+  padding-left: 20px;
+}
+
+.spotify {
+  color:#5B507A;
+  padding-left: 20px;
+  list-style-type: none ;
+}
